@@ -18,3 +18,17 @@ body {
   font-family: "Inter", "sans-serif";
   caret-color: transparent;
 }
+
+/* 1400px */
+@media only screen and (min-width: 87.5em) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+/* 1100px */
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 56.25%;
+  }
+}

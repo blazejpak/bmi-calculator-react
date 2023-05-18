@@ -1,6 +1,7 @@
 .container-limitations {
   max-width: 116rem;
   height: 70rem;
+  margin-left: 2rem;
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -9,12 +10,17 @@
 }
 
 .div-limits {
-  width: 36.5rem;
+  min-width: 30rem;
+
+  max-width: 36.5rem;
   height: 23.2rem;
 
   padding: 3.2rem;
   border-radius: 16px;
   box-shadow: 8px 8px 32px rgba(143, 174, 207, 0.25);
+}
+.div-limits:last-child {
+  min-width: 33rem;
 }
 
 .vector-right {
@@ -26,6 +32,7 @@
   grid-column: 1 / span 6;
   grid-row: 1 / span 3;
   height: 18.4rem;
+  /* margin-left: 1rem; */
 }
 
 .div-limitations--gender {
@@ -82,4 +89,11 @@
   font-weight: 400;
   line-height: 24px;
   color: #5e6e85;
+}
+
+/* 1000px */
+@media only screen and (max-width: 62.5em) {
+  .text-limitations {
+    font-size: 1.4rem;
+  }
 }
