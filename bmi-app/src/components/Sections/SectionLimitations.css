@@ -1,0 +1,85 @@
+.container-limitations {
+  max-width: 116rem;
+  height: 70rem;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(11, auto);
+  gap: 1rem;
+}
+
+.div-limits {
+  width: 36.5rem;
+  height: 23.2rem;
+
+  padding: 3.2rem;
+  border-radius: 16px;
+  box-shadow: 8px 8px 32px rgba(143, 174, 207, 0.25);
+}
+
+.vector-right {
+  grid-column: 3;
+  grid-row: 5 / span 2;
+}
+
+.div-limitations {
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 3;
+  height: 18.4rem;
+}
+
+.div-limitations--gender {
+  grid-column: 8 / span 4;
+  grid-row: 1 / span 3;
+}
+
+.div-limitations--age {
+  grid-column: 5 / span 4;
+  grid-row: 5 / span 3;
+  height: 18.4rem;
+}
+
+.div-limitations--muscle {
+  grid-column: 9 / span 4;
+  grid-row: 5 / span 3;
+  height: 18.4rem;
+}
+
+.div-limitations--pregnancy {
+  grid-column: 3 / span 4;
+  grid-row: 9 / span 3;
+  width: 36.5rem;
+}
+
+.div-limitations--race {
+  grid-column: 7 / span 4;
+  grid-row: 9 / span 3;
+}
+
+.limitations-header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary--limitations {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 52px;
+  color: #253347;
+  margin-bottom: 3.5rem;
+}
+
+.heading-third--limitations {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #253347;
+}
+
+.text-limitations {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5e6e85;
+}

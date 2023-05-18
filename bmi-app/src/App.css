@@ -16,4 +16,5 @@ html {
 
 body {
   font-family: "Inter", "sans-serif";
+  caret-color: transparent;
 }
