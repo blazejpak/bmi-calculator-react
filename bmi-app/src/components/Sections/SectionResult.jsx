@@ -2,16 +2,15 @@ import "./SectionResult.css";
 
 import vectorLeft from "../../../assets/images/pattern-curved-line-left.svg";
 
+const imageMan = "../../assets/images/image-man-eating.webp";
+
 const SectionResult = () => {
   return (
     <section className="container-result">
       <img src={vectorLeft} className="vector-line--left" />
 
       <div className="result-div--image">
-        <img
-          className="image"
-          src="../../assets/images/image-man-eating.webp"
-        />
+        <img className="image" src={imageMan} />
       </div>
       <div className="div-text--result">
         <h2 className="heading-secondary--result">
