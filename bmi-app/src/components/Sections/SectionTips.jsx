@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./SectionTips.css";
 
 import mealLogo from "../../../assets/images/icon-eating.svg";

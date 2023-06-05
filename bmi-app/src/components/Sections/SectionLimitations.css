@@ -1,7 +1,7 @@
 .container-limitations {
   max-width: 116rem;
-  height: 70rem;
-  margin-left: 2rem;
+  height: 74rem;
+  margin-left: 14rem;
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -10,17 +10,12 @@
 }
 
 .div-limits {
-  min-width: 30rem;
-
-  max-width: 36.5rem;
+  width: 36.5rem;
   height: 23.2rem;
 
   padding: 3.2rem;
   border-radius: 16px;
   box-shadow: 8px 8px 32px rgba(143, 174, 207, 0.25);
-}
-.div-limits:last-child {
-  min-width: 33rem;
 }
 
 .vector-right {
@@ -95,5 +90,99 @@
 @media only screen and (max-width: 62.5em) {
   .text-limitations {
     font-size: 1.4rem;
+  }
+
+  .container-limitations {
+    margin-left: 10rem;
+  }
+
+  .vector-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 53.125em) {
+  .container-limitations {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+
+    margin-left: 0;
+    height: auto;
+    width: auto;
+    padding: 0 auto;
+  }
+  .div-limits {
+    width: 90%;
+  }
+
+  .div-limitations {
+    grid-column: 1 /-1;
+    grid-row: 1;
+    text-align: center;
+  }
+
+  .div-limitations--gender {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: 100%;
+  }
+
+  .div-limitations--age {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+    height: 100%;
+  }
+
+  .div-limitations--muscle {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    height: 100%;
+  }
+
+  .div-limitations--pregnancy {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    height: 100%;
+  }
+
+  .div-limitations--race {
+    grid-column: 2 / span 2;
+    grid-row: 4;
+    height: 100%;
+  }
+}
+
+/* 650px */
+@media only screen and (max-width: 40.625em) {
+  .container-limitations {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .limitations-header {
+    padding: 0 2rem;
+  }
+
+  .text-limitations {
+    padding: 0 2rem;
+  }
+
+  .div-limitations {
+    margin-bottom: 4rem;
+  }
+
+  .div-limits {
+    box-shadow: 4px 4px 16px rgba(143, 174, 207, 0.25);
+  }
+}
+
+/* 300px */
+@media only screen and (max-width: 18.75em) {
+  .div-limitations {
+    margin-bottom: 15rem;
   }
 }

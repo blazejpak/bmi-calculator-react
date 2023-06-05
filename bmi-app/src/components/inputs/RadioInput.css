@@ -1,5 +1,5 @@
 .form-radio--inside {
-  width: 24rem;
+  width: 100%;
 }
 
 .form-radio--inside input[type="radio"] {

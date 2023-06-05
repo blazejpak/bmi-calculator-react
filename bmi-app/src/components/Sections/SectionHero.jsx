@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./SectionHero.css";
 
 import logo from "../../../assets/images/logo.svg";
@@ -43,13 +43,19 @@ const SectionHero = () => {
           </div>
 
           <div className="input-number--box">
-            <div className="input-number--inside">
+            <div className="input-number--container">
               <label>Height</label>
-              <input type="number" placeholder="0" className="input-number" />
+              <div className="input-number--inside">
+                <input type="number" placeholder="0" className="input-number" />
+                <h3 className="input-number--heading">cm</h3>
+              </div>
             </div>
-            <div className="input-number--inside">
+            <div className="input-number--container">
               <label>Weight</label>
-              <input type="number" placeholder="0" className="input-number" />
+              <div className="input-number--inside">
+                <input type="number" placeholder="0" className="input-number" />
+                <h3 className="input-number--heading">kg</h3>
+              </div>
             </div>
           </div>
         </form>
