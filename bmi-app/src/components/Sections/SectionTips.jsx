@@ -1,8 +1,8 @@
 import "./SectionTips.css";
 
-import mealLogo from "../../assets/images/icon-eating.svg";
-import excerciseLogo from "../../assets/images/icon-exercise.svg";
-import sleepLogo from "../../assets/images/icon-sleep.svg";
+import mealLogo from "/images/icon-eating.svg";
+import excerciseLogo from "/images/icon-exercise.svg";
+import sleepLogo from "/images/icon-sleep.svg";
 
 const SectionTips = () => {
   return (

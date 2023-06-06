@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./SectionHero.css";
 
-import logo from "../../assets/images/logo.svg";
+import logo from "/images/logo.svg";
 import RadioInput from "../inputs/RadioInput";
 import {
   updateHeightCm,
