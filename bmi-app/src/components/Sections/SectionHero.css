@@ -9,6 +9,8 @@
   grid-template-rows: 13.9rem 1fr;
 
   margin-bottom: 6.5rem;
+
+  caret-color: auto;
 }
 
 .container-hero::before {
@@ -66,7 +68,7 @@
   align-self: center;
 
   background-color: white;
-  height: 48rem;
+  height: auto;
   max-width: 56rem;
   border-radius: 16px;
   box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.08);
@@ -92,6 +94,8 @@
 
 .input-number--box {
   display: flex;
+  align-items: flex-end;
+
   flex-direction: row;
   gap: 2.4rem;
 }
@@ -143,6 +147,19 @@
   border: 1px solid #d8e2e7;
   border-radius: 12px;
   padding: 0 2.4rem;
+
+  cursor: pointer;
+}
+
+.input-number_imperial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-number--inside:hover,
+.input-number--inside:focus-within {
+  border: 1px solid #345ff6;
 }
 
 .input-number--heading {

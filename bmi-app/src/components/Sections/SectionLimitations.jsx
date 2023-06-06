@@ -1,13 +1,11 @@
-import React from "react";
-
 import "./SectionLimitations.css";
 
-import vectorRight from "../../../assets/images/pattern-curved-line-right.svg";
-import logoGender from "../../../assets/images/icon-gender.svg";
-import logoAge from "../../../assets/images/icon-age.svg";
-import logoMuscle from "../../../assets/images/icon-muscle.svg";
-import logoPregnancy from "../../../assets/images/icon-pregnancy.svg";
-import logoRace from "../../../assets/images/icon-race.svg";
+import vectorRight from "../../assets/images/pattern-curved-line-right.svg";
+import logoGender from "../../assets/images/icon-gender.svg";
+import logoAge from "../../assets/images/icon-age.svg";
+import logoMuscle from "../../assets/images/icon-muscle.svg";
+import logoPregnancy from "../../assets/images/icon-pregnancy.svg";
+import logoRace from "../../assets/images/icon-race.svg";
 
 const SectionLimitations = () => {
   return (

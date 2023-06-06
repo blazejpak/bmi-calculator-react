@@ -1,6 +1,6 @@
 import "./SectionResult.css";
 
-import vectorLeft from "../../../assets/images/pattern-curved-line-left.svg";
+import vectorLeft from "../../assets/images/pattern-curved-line-left.svg";
 
 const SectionResult = () => {
   return (
@@ -8,7 +8,11 @@ const SectionResult = () => {
       <img src={vectorLeft} className="vector-line--left" />
 
       <div className="result-div--image">
-        <img className="image" src="../../assets/image-man-eating.webp" />
+        <img
+          alt="Man eating"
+          className="image"
+          src="/src/assets/images/image-man-eating.webp"
+        />
       </div>
       <div className="div-text--result">
         <h2 className="heading-secondary--result">
