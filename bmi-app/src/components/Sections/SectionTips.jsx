@@ -8,7 +8,7 @@ const SectionTips = () => {
   return (
     <section className="section-tips">
       <div className="tip">
-        <img src={mealLogo} className="tip-logo" />
+        <img alt="Logo meal" src={mealLogo} className="tip-logo" />
         <div className="tip-div">
           <h2 className="heading-secondary--tip">Healthy eating</h2>
           <p className="tip-text">
@@ -18,7 +18,7 @@ const SectionTips = () => {
         </div>
       </div>
       <div className="tip">
-        <img src={excerciseLogo} className="tip-logo" />
+        <img alt="Logo excercise" src={excerciseLogo} className="tip-logo" />
         <div className="tip-div">
           <h2 className="heading-secondary--tip">Regular exercise</h2>
           <p className="tip-text">
@@ -28,7 +28,7 @@ const SectionTips = () => {
         </div>
       </div>
       <div className="tip">
-        <img src={sleepLogo} className="tip-logo" />
+        <img alt="Logo sleep" src={sleepLogo} className="tip-logo" />
         <div className="tip-div">
           <h2 className="heading-secondary--tip">Adequate sleep</h2>
           <p className="tip-text">

@@ -5,7 +5,11 @@ import vectorLeft from "/images/pattern-curved-line-left.svg";
 const SectionResult = () => {
   return (
     <section className="container-result">
-      <img src={vectorLeft} className="vector-line--left" />
+      <img
+        alt="Line with using vectors"
+        src={vectorLeft}
+        className="vector-line--left"
+      />
 
       <div className="result-div--image">
         <img

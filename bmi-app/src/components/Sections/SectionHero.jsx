@@ -18,7 +18,7 @@ const SectionHero = () => {
 
   return (
     <section className="container-hero">
-      <img src={logo} className="logo" />
+      <img alt='Image of site logo' src={logo} className="logo" />
       <div className="header">
         <h1 className="heading-primary">Body Mass Index Calculator</h1>
         <span className="header-text">

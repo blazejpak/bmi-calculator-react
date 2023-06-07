@@ -10,7 +10,11 @@ import logoRace from "/images/icon-race.svg";
 const SectionLimitations = () => {
   return (
     <section className="container-limitations">
-      <img src={vectorRight} className="vector-right" />
+      <img
+        alt="Line with using vectors"
+        src={vectorRight}
+        className="vector-right"
+      />
       <div className="div-limitations">
         <h2 className="heading-secondary--limitations">Limitations of BMI</h2>
         <p className="text-limitations">
@@ -22,7 +26,7 @@ const SectionLimitations = () => {
       </div>
       <div className="div-limitations--gender div-limits">
         <div className="limitations-header">
-          <img src={logoGender} />
+          <img alt="Logo gender" src={logoGender} />
           <h3 className="heading-third--limitations">Gender</h3>
         </div>
         <p className="text-limitations">
@@ -34,7 +38,7 @@ const SectionLimitations = () => {
 
       <div className="div-limitations--age div-limits">
         <div className="limitations-header">
-          <img src={logoAge} />
+          <img alt="Logo age" src={logoAge} />
           <h3 className="heading-third--limitations">Age</h3>
         </div>
         <p className="text-limitations">
@@ -45,7 +49,7 @@ const SectionLimitations = () => {
 
       <div className="div-limitations--muscle div-limits">
         <div className="limitations-header">
-          <img src={logoMuscle} />
+          <img alt="Logo muscle" src={logoMuscle} />
           <h3 className="heading-third--limitations">Muscle</h3>
         </div>
         <p className="text-limitations">
@@ -56,7 +60,7 @@ const SectionLimitations = () => {
 
       <div className="div-limitations--pregnancy div-limits">
         <div className="limitations-header">
-          <img src={logoPregnancy} />
+          <img alt="Logo pregnancy" src={logoPregnancy} />
           <h3 className="heading-third--limitations">Pregnancy</h3>
         </div>
         <p className="text-limitations">
@@ -68,7 +72,7 @@ const SectionLimitations = () => {
 
       <div className="div-limitations--race div-limits">
         <div className="limitations-header">
-          <img src={logoRace} />
+          <img alt="Logo race" src={logoRace} />
           <h3 className="heading-third--limitations">Race</h3>
         </div>
         <p className="text-limitations">
