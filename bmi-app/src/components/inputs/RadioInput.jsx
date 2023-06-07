@@ -2,7 +2,9 @@ import "./RadioInput.css";
 
 const RadioInput = ({ value, checked, onChange, label }) => {
   return (
-    <div className="form-radio--inside">
+    <div
+      className={checked ? "form-radio--inside active" : "form-radio--inside"}
+    >
       <input
         value={value}
         type="radio"

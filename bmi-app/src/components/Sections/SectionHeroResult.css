@@ -1,0 +1,51 @@
+.div-result {
+  max-width: 100%;
+  height: auto;
+  padding: 3.2rem;
+
+  background: linear-gradient(90deg, #345ff7 0%, #587dff 100%);
+  border-radius: 16px 999px 999px 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  color: #fff;
+}
+
+.div-result .div-result__bmi {
+  display: flex;
+  gap: 2.4rem;
+
+  align-items: center;
+}
+
+.div-result__bmi--inside {
+  width: 100%;
+}
+
+.div-result__bmi--text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.heading-secondary--hero {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.heading-secondary--hero__bmi {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.div-result--text {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.div-result--text__bmi {
+  font-size: 6.4rem;
+  font-weight: 600;
+}

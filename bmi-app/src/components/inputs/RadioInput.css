@@ -9,7 +9,6 @@
 .form-radio--inside {
   display: block;
   align-items: center;
-  cursor: pointer;
 }
 
 .form-radio--inside label {
@@ -34,12 +33,27 @@
 }
 
 .form-radio--inside input[type="radio"]:checked + label::before,
-.form-radio--inside input[type="radio"]:hover + label::before {
+.form-radio--inside input[type="radio"]:hover + label::before,
+.form-radio--inside input[type="radio"]:focus + label::before,
+.active label::before {
   background-color: #345ff626;
   border: none;
 }
 
-.form-radio--inside input[type="radio"]:checked + label::after {
+/* .form-radio--inside input[type="radio"]:checked + label::after,
+.form-radio--inside input[type="radio"]:focus + label::after {
+  position: absolute;
+  transform: translateX(50%);
+
+  content: "";
+  background-color: #345ff6;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+} */
+
+.active label::after,
+.active label::after {
   position: absolute;
   transform: translateX(50%);
 
