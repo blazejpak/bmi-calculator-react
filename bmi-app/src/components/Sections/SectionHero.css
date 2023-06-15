@@ -24,8 +24,10 @@
 }
 
 .logo {
-  margin-bottom: 10rem;
-  align-self: flex-start;
+  position: absolute;
+
+  top: 5rem;
+  left: 5rem;
 }
 
 .header {
@@ -92,22 +94,29 @@
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 20rem;
+    padding: 1rem 5rem;
+
+    height: auto;
   }
 
   .logo {
+    position: static;
+
     height: 4rem;
     width: 4rem;
-    margin: 14rem 0 0 0;
   }
 
   .header {
-    margin: 4rem;
+    padding: 4rem;
     text-align: center;
+    gap: 3rem;
+  }
+  .header-text {
+    padding: 1rem;
   }
 
-  .header-text {
-    padding: 0;
+  .heading-primary {
+    font-size: 4.8rem;
   }
 
   .container-hero::before {
@@ -120,26 +129,42 @@
 
 /* 850px */
 @media only screen and (max-width: 53.125em) {
-  .container-hero {
-    min-width: 100%;
-  }
-
   .container-hero:last-child {
     gap: 4rem;
   }
 }
 
-/* 300px */
-@media only screen and (max-width: 18.75em) {
-  .logo {
-    margin: 40rem 0 0 0;
-  }
-
-  .container-hero {
-    margin-bottom: 30rem;
-  }
-
+/* 600px */
+@media only screen and (max-width: 37.5em) {
   .header {
-    margin: 4rem 2rem;
+    padding: 1rem;
+    gap: 3rem;
+  }
+  .container-hero {
+    padding: 1rem;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .header {
+    padding: 0;
+  }
+  .container-hero {
+    padding: 0;
+  }
+  .logo {
+    margin-top: 2rem;
+  }
+
+  .form {
+    padding: 1rem 0;
+  }
+
+  .heading-secondary {
+    margin: auto;
   }
 }

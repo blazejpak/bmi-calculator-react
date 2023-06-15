@@ -73,3 +73,10 @@
   font-weight: 600;
   color: #345ff6;
 }
+
+/* 400px */
+@media only screen and (max-width: 25em) {
+  .input-number--box__metric {
+    flex-direction: column;
+  }
+}

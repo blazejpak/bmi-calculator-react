@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-.div-result .div-result__bmi {
+.div-result__bmi {
   display: flex;
   gap: 2.4rem;
 
@@ -48,4 +48,15 @@
 .div-result--text__bmi {
   font-size: 6.4rem;
   font-weight: 600;
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .div-result {
+    border-radius: 16px;
+  }
+
+  .div-result__bmi {
+    flex-direction: column;
+  }
 }

@@ -78,7 +78,7 @@ const FormInput = ({ selectedRadio }) => {
 
   if (selectedRadio === "metric") {
     input = (
-      <div className="input-number--box">
+      <div className="input-number--box input-number--box__metric">
         <div className="input-number--container">
           <label htmlFor="height">Height</label>
           <div className="input-number--inside">
