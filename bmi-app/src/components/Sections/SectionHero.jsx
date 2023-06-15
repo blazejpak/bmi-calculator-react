@@ -18,8 +18,8 @@ const SectionHero = () => {
 
   return (
     <section className="container-hero">
-      <img alt='Image of site logo' src={logo} className="logo" />
       <div className="header">
+        <img alt="Image of site logo" src={logo} className="logo" />
         <h1 className="heading-primary">Body Mass Index Calculator</h1>
         <span className="header-text">
           Better understand your weight in relation to your height using our
